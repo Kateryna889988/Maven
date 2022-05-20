@@ -1,6 +1,6 @@
 package andersen.lesson1;
 
-public class MainApplication {
+public class HomeWorkApp {
     public static void main(String[] args) {
         printThreeFruits();
         checkSumSing(8, 2);
@@ -43,9 +43,8 @@ public class MainApplication {
         if (a >= b) {
             System.out.println("a>=b");
         }
-        else {
+            else {
             System.out.println("a<b");
         }
     }
 }
-
