@@ -26,7 +26,6 @@ public class MainApplication {
             System.out.println("Сумма положительная");
         } else {
             System.out.println("Сумма отрицательная");
-
         }
     }
 
