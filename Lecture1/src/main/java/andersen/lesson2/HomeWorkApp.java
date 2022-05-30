@@ -14,6 +14,8 @@ public class HomeWorkApp {
         System.out.println("____task1_____");
         boolean t = task1.isSumCorrect(1, 5);
         boolean f = task1.isSumCorrect(10, 5);
+        System.out.println("1 and 5 = " + t);
+        System.out.println("10 and 5 = " + f);
 
         System.out.println("____task2_____");
         task2.isPositiveOrNegative(5);
@@ -24,6 +26,9 @@ public class HomeWorkApp {
         boolean b = task3.isPositiveOrNegative1(5);
         boolean g = task3.isPositiveOrNegative1(-2);
         boolean j = task3.isPositiveOrNegative1(0);
+        System.out.println("5 = " + b);
+        System.out.println("-2 = " + g);
+        System.out.println("0 = " + j);
 
         System.out.println("____task4_____");
         task4.printWordNTimes("Helloy, Kitty!", 6);
